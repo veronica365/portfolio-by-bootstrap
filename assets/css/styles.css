@@ -100,7 +100,7 @@ header {
   color: #6070ff;
 }
 
-.contact_background {
+.contact-background {
   background-color: #6070ff;
   border-top-left-radius: 100px;
 }
@@ -132,29 +132,65 @@ header {
 }
 
 .form-group input,
-.form-group textarea{
-    width: 400px;
-    padding: 1rem;
-    color: #172b4d;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 20px;
-    background: #fff;
-    border: 1px solid #cfd8dc;
-    margin-bottom: 1rem;
-    border-radius: 8px;
-    outline: none;
+.form-group textarea {
+  width: 400px;
+  padding: 1rem;
+  color: #172b4d;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  outline: none;
 }
 
 .form-group button {
-    height: 3rem;
-    border: none;
-    color: #6070ff;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    padding: 12px 16px;
-    border-radius: 8px;
-    background-color: #fff;
-    letter-spacing: 0.03em;
+  height: 3rem;
+  border: none;
+  color: #6070ff;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background-color: #fff;
+  letter-spacing: 0.03em;
+}
+
+.about-me {
+  border-top-right-radius: 120px;
+}
+
+.about-me .about-me-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #091e42;
+}
+
+.about-me .about-me-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.about-me .lets-connect {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.about-me .languages li img {
+  width: 48px;
+  height: 48px;
+}
+
+.about-me .languages h5 {
+  border-color: #dfe1e6;
 }
