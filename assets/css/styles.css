@@ -54,3 +54,48 @@ header {
   background-color: #fff;
   border-bottom-left-radius: 100px;
 }
+
+.card {
+  border: 1px solid #dfe1e6;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.card-body h5.card-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+}
+
+.card-body ul li {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #6b778c;
+}
+
+.card-body ul li:first-child {
+  font-weight: 500;
+  color: #344563;
+}
+
+.card-body p.card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.card:nth-child(even) {
+  flex-direction: row-reverse !important;
+}
+
+.card-body span.badge {
+  font-weight: 500;
+  font-size: 12px;
+  padding: 0.5rem 1rem;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
