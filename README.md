@@ -19,9 +19,9 @@
 - [👥 Authors](#authors)
 - [📝 License](#license)
 
-# 📖 [Hello Microverse] <a name="about-project"></a>
+# 📖 [Portfolio Made with boostrap] <a name="about-project"></a>
 
-**[Hello Microverse]** is an exercise on day two of week one that allows Micronouts to showcase their learning about project documentation, setting up and using project linters
+**[Portfolio made with bootstrap]** is an exercise on using a CSS framework like Bootstrap to create a new website quickly from scratch.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -89,7 +89,7 @@ To run the project, execute the following command:
 👤 **Author1**
 
 - GitHub: [@verocnica365](https://github.com/verocnica365)
-- Twitter: [@ssewilliam](https://twitter.com/ssewilliam)
+- GitHub: [@mumo-esther](https://github.com/mumo-esther)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
