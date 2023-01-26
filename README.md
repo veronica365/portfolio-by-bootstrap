@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>Hello Microverse Exercise</b></h3>
+  <h3><b>Portfolio -  made with bootstrap</b></h3>
 
 </div>
 
@@ -30,6 +30,7 @@
 <details>
   <summary>Client</summary>
   <ul>
+    <li><a href="https://getbootstrap.com/docs/5.0/">Bootstrap</a></li>
     <li><a href="https://web.dev/learn/css/?gclid=EAIaIQobChMIsdaclZC9_AIViIjVCh2zoAV1EAAYASAAEgJf5PD_BwE">HTML and CSS</a></li>
   </ul>
 </details>
@@ -37,15 +38,20 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Has an HTML file that includes an H1 header with the text "Hello Microverse!"]**
-- **[Has a CSS file that includes one class with styles for the H1 header]**
-- **[Has a rule in the .gitignore to ignore the file and all its contents]**
+- [navbar](https://getbootstrap.com/docs/5.0/components/navbar/) and [nav](https://getbootstrap.com/docs/5.0/components/navs-tabs/) for the header.
+- [scrollspy](https://getbootstrap.com/docs/5.0/components/scrollspy/) to update the active menu link when the user scrolls.
+- [cards](https://getbootstrap.com/docs/5.0/components/card/) for the list of portfolio projects.
+- [buttons](https://getbootstrap.com/docs/5.0/components/buttons/).
+- [badges](https://getbootstrap.com/docs/5.0/components/badge/) for the list of technologies.
+- [modals](https://getbootstrap.com/docs/5.0/components/modal/) for the popup window with the project details.
+- [Bootstrap forms components](https://getbootstrap.com/docs/5.0/forms/overview/) to create the contact form.
+- [the grid system](https://getbootstrap.com/docs/5.0/layout/grid/) to place elements inline with others.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://veronica365.github.io/hello_microverse/)
+- [Live Demo Link](https://veronica365.github.io/portfolio-by-bootstrap/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -66,14 +72,14 @@ Clone this repository to your desired folder:
 
 ```sh
   cd your-desired-folder
-  git clone git@github.com:veronica365/hello_microverse.git
+  git clone git@github.com:veronica365/portfolio-by-bootstrap.git
 ```
 
 ### Usage
 
 To run the project, execute the following command:
 
-- open the repo folder `hello_microverse`
+- open the repo folder `portfolio-by-bootstrap`
 - Rightclick on the index.html file and select open in the browser
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
