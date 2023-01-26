@@ -23,7 +23,7 @@
         <link rel="stylesheet" href="./assets/css/styles.css">
     </noscript>
     <header>
-        <nav class="navbar navbar-expand-md navbar-light bg-white">
+        <nav id="scrollspy-portfolio" class="navbar navbar-expand-md navbar-light bg-white">
             <div class="container-lg">
                 <a class="navbar-brand" href="#">My Logo</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -34,22 +34,22 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Portfolio</a>
+                            <a class="nav-link" aria-current="page" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#about-me">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#contact-me">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <main>
+    <main data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="overflow-scroll" tabindex="0">
         <section id="works">
-            <div class="portfolio-background">
+            <div id="portfolio" class="portfolio-background">
                 <div class="container col-xxl-8 px-4 py-5">
                     <div class="row flex-lg-row align-items-center g-5 py-5 mt-5">
                         <div class="col-lg-8 pt-5">
@@ -166,7 +166,7 @@
         </section>
 
         <!-- About myself -->
-        <section class="about-me bg-white py-5">
+        <section id="about-me" class="about-me bg-white py-5">
             <div class="container-md col-xxl-8 py-5">
                 <div class="card d-flex flex-colimn flex-md-row border-0 py-5">
                     <div class="col-md-5">
@@ -218,7 +218,7 @@
                 </div>
             </div>
         </section>
-        <section id="contact-me py-4" class="bg-white">
+        <section id="contact-me" class="bg-white py-4">
             <div class="contact-background py-4">
                 <div class="background">
                     <div class="container d-flex flex-column align-items-center justify-content-center">
