@@ -196,7 +196,8 @@ body {
   .portfolio-background {
     background-image: url("/assets/img/backgrounds/header-shapes.svg");
   }
-  .background{
+
+  .background {
     background-image: url("/assets/img/backgrounds/contact-form.svg");
     background-position: top right;
   }
