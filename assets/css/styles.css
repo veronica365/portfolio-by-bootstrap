@@ -4,10 +4,10 @@ body {
   font-family: Poppins, sans-serif;
 }
 
-header {
-  height: 110px;
+.navbar {
+  height: 80px;
   background: white;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 .navbar-light .navbar-brand {
@@ -52,6 +52,7 @@ header {
   background-repeat: no-repeat;
   background-position: center center;
   background-color: #fff;
+  height: calc(100vh - 80px);
   border-bottom-left-radius: 100px;
 }
 
@@ -85,10 +86,6 @@ header {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-}
-
-.card:nth-child(even) {
-  flex-direction: row-reverse !important;
 }
 
 .card-body span.badge {
