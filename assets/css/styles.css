@@ -47,7 +47,7 @@ body {
 }
 
 .portfolio-background {
-  background-image: url("/assets/img/backgrounds/header-bg.svg");
+  background-image: url("../../assets/img/backgrounds/header-bg.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -103,7 +103,7 @@ body {
 }
 
 .background {
-  background-image: url("/assets/img/backgrounds/contact-form-bg.svg");
+  background-image: url("../../assets/img/backgrounds/contact-form-bg.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -194,11 +194,11 @@ body {
 
 @media screen and (max-width: 768px) {
   .portfolio-background {
-    background-image: url("/assets/img/backgrounds/header-shapes.svg");
+    background-image: url("../../assets/img/backgrounds/header-shapes.svg");
   }
 
   .background {
-    background-image: url("/assets/img/backgrounds/contact-form.svg");
+    background-image: url("../../assets/img/backgrounds/contact-form.svg");
     background-position: top right;
   }
 }
